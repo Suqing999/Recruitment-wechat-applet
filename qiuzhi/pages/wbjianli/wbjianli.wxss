@@ -1,0 +1,4 @@
+/* pages/wbjianli/wbjianli.wxss */
+text{
+  align-items: center;
+}

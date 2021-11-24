@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/jieshao/jieshao",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/jianli/jianli",
+    "pages/shoucang/shoucang",
+    "pages/qiuzhijilu/qiuzhijilu",
+    "pages/yijian/yijian",
+    "pages/liebiao/liebiao",
+    "pages/liebiao2/liebiao2",
+    "pages/liebiao3/liebiao3",
+    "pages/login/login",
+    "pages/regist/regist",
+    "pages/wjmima/wjmima",
+    "pages/wbjianli/wbjianli",
+    "pages/xiugai/xiugai"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "效果展示"
+    }
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#02A6FF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "求职招聘小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/jieshao/jieshao",
+        "text": "公司介绍",
+        "iconPath": "/images/sousuo.png",
+        "selectedIconPath": "/images/sousuo2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "招聘",
+        "iconPath": "/images/main.png",
+        "selectedIconPath": "/images/main2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/mine.png",
+        "selectedIconPath": "/images/mine2.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+.zhengti{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  	#02A6FF;
+}
+
+.box{
+  width: 33.3%;
+  text-align: center;
+}
+
+
+.search-bar { 
+  height: 30%;
+  padding: 18px 375px; 
+  display: flex; 
+  box-sizing: border-box; 
+  background-color:  	#02A6FF
+}
+.barform{ 
+  position: relative; 
+  -webkit-box-flex: 1; 
+  -webkit-flex: auto;
+  flex: auto;
+  border-radius: 5px;
+  background: #FFFFFF; 
+  border: 1rpx solid #E6E6EA; 
+} 
+.searchbox { 
+  padding-left: 40px;  
+  width: 100%; 
+} 
+.input {
+  height: 30px; 
+  line-height: 30px; 
+  font-size: 18px; 
+  width: 250px;
+  align-items: center;
+}
+.button { 
+  margin-left: 25px;
+  line-height: 30px; 
+  color: rgb(24, 168, 204); 
+  white-space: nowrap; 
+}
+
+
+.zong{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+.shang{ 
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+.shangzuo{
+  height: 100%;
+  background-color: wheat;
+  width: 50%;
+  
+}
+
+.shangzuo2{
+  height: 100%;
+  width: 100%;
+}
+
+.shangyou{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color:black;
+  width: 50%;
+
+}
+
+
+.s{
+  height: 60%;
+  background-color:blue;
+  width: 100%;
+
+}
+
+.s2{
+  height: 100%;
+
+  width: 100%;
+}
+.x{
+  height: 40%;
+  background-color:red;
+  width: 100%;
+
+}
+.x2{
+  height: 100%;
+ 
+  width: 100%;
+}
+.xia{
+  height: 30vh;
+}
+
+swiper {
+height: 100%;
+}
+swiper-item image {
+width: 100%;
+height: 100%;
+}

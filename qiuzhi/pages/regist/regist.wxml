@@ -1,0 +1,62 @@
+<view class="mcontainer">
+    <view class="item">
+        <image src="/images/logo2.png" class="image"/>
+    </view>
+
+    <view class="item">
+        <view class="regist-item">
+       	    <view class="regist-item-info">姓名</view>
+            <view><input bindinput="name" /></view>
+       </view>
+       <view class="regist-item">
+       	    <view class="regist-item-info">登录用户名</view>
+            <view><input bindinput="username" /></view>
+       </view>
+       
+       <view class="regist-item">
+            <view class="regist-item-info">登录密码</view>
+            <view class="regist-pwd">
+            
+            <input style="flex-grow:1" password="true"  bindinput="password"/> 
+            
+          
+            </view>
+            
+     <view class="regist-item">
+       	    <view class="regist-item-info">重新输入一遍密码</view>
+            <view class="regist-pwd">
+            
+            <input style="flex-grow:1" password="true"  bindinput="password2"/> 
+            
+          
+            </view>
+       </view>
+
+      <view class="regist-item">
+            <view class="regist-item-info">验证码</view>
+            <view class="regist-pwd">
+            
+            <input style="flex-grow:1" password="true"  bindinput="yzm"/> 
+            
+            <navigator url="../../pages/wjmima/wjmima">
+                 <text> {{code}} </text>
+            </navigator>
+          
+            
+            </view>
+       </view>
+
+       
+       </view>
+
+       
+       <view class="regist-item bottom">
+            <button class="regist-btn" bindtap="registQQ">注册</button>
+       </view>
+    </view>
+
+
+  
+
+
+</view>

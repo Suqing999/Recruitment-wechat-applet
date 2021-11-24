@@ -1,0 +1,28 @@
+<!--pages/shoucang/shoucang.wxml-->
+<scroll-view class="zong">
+   <view class="f1"  wx:for="{{jobUrls}}" wx:if="{{index<100}}">
+          <view id="name"><text id="name2">{{item.jname}}</text></view>
+                <view id="fenge"></view>
+                     
+          <view id="money">{{item.jxs}}/{{item.jwz}}/{{item.jjy}}/{{item.jxl}}</view>      <view id="fenge"></view>
+          <view id="youhuo">性质：{{item.jyh}}</view>
+                <view id="fenge"></view>      <view id="fenge"></view>      <view id="fenge"></view>
+          <view style="text-align:center">————职位描述—————</view>
+          <scroll-view id="xiangxi" scroll-y="true">
+               {{item.jms}}
+          </scroll-view>
+          <view id="btn"> 
+              <view id="btn1">
+               <button  bindtap="tdjob" data-value="{{item.jid}}">投递</button>  
+              </view>
+              <view  id="btn2">
+                <button  bindtap="scjob" data-value="{{item.jid}}">收藏</button>  
+              </view>
+          </view>
+    </view>
+    
+     
+          <view class="divLine"></view>
+</scroll-view> 
+
+<view>没有更多了</view>

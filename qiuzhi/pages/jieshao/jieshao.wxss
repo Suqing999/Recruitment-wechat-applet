@@ -1,0 +1,81 @@
+/* pages/jieshao/jieshao.wxss */
+
+.zong{
+  height: 250vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+swiper {
+height: 100%;
+}
+swiper-item image {
+width: 100%;
+height: 100%;
+}
+
+.f2{
+  height: 50vh;
+  width: 100%;
+ 
+}
+
+.f3{
+  height: 20vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  height: 100%;
+  width: 20%;
+  background-color: #dadada;
+}
+.n{
+  height: 100%;
+  width: 80%;
+
+
+  margin-top: 5vh;
+}
+
+#title{
+  text-align: center;
+}
+
+#title2{
+  font-size: 50rpx;
+}
+.fenge{
+  height: 3vh;
+  width: 100%;
+  background-color: #dadada;
+}
+
+.f4{
+    height: 59vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.f5{
+  z-index: 2;
+    height: 40vh;
+    width: 100%;
+     background-color:  #ffffff;
+}
+.f6{
+    height: 40vh;
+    width: 100%;
+    background-color: #ffffff;
+
+   
+}
+.f7{
+    height: 40vh;
+    width: 100%;
+    background-color: #ffffff;
+}

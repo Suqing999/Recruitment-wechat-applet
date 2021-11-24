@@ -1,0 +1,352 @@
+.zong {
+    background-color: #f5f5f5;
+    min-height: 100%;
+    margin-bottom: 20%;
+}
+
+.zong .main {
+    width: 750rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zong .main .title {
+    width: 730rpx;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    font-size: .9rem;
+    padding-left: 20rpx;
+    color: #888888;
+}
+
+.zong .main .list {
+    width: 750rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+}
+
+.zong .main .list .item {
+    width: 700rpx;
+    border-bottom: 1rpx solid #f5f5f5;
+    align-self: center;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.zong .main .list .item .name {
+    width: 20%;
+    font-size: .8rem;
+}
+
+.zong .main .list .item .selectitem {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #808080;
+    font-size: .8rem;
+}
+
+.zong .main .list .item .selectitem>image {
+    width: 30rpx;
+    height: 30rpx;
+    align-self: center;
+}
+
+.zong .main .checklist {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 750rpx;
+    background: #fff;
+    flex-wrap: wrap;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    padding-left: 20rpx;
+}
+
+.zong .main .checklist checkbox-group {
+    width: 720rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.zong .main .checklist .checkitem {
+    font-size: .7rem;
+    width: 240rpx;
+    margin-top: 10rpx;
+}
+
+.zong .main .imglist {
+    width: 720rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #FFF;
+}
+
+.zong .main .imglist .imgitem {
+    width: 200rpx;
+    border: 1rpx dotted #f5f5f5;
+    position: relative;
+}
+
+.zong .main .imglist .imgitem image {
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.sum {
+    position: absolute;
+    width: 45rpx;
+    height: 45rpx;
+    border-radius: 50%;
+    background: #3274e5;
+    top: -10rpx;
+    left: 150rpx;
+    color: #FFF;
+    z-index: 1000;
+    font-size: .7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sum text {
+    font-size: .7rem;
+    align-self: center;
+}
+
+.weixinmao-msg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2001;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.weixinmao-content {
+    width: 720rpx;
+    height: 450rpx;
+    z-index: 4001;
+    background: #FFF;
+    align-self: center;
+    border-radius: 8rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    height: 850rpx;
+}
+
+.mapbtn {
+    background: #3274e5;
+    color: #FFF;
+    font-size: 1rem;
+    width: 400rpx;
+}
+
+.weixinmao-content .title {
+    border-bottom: 1rpx solid #e5e5e5;
+    width: 100%;
+    text-align: center;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    font-size: .8rem;
+    background: #3274e5;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weixinmao-content .title view:nth-child(1) {
+    width: 30%;
+}
+
+.weixinmao-content .title view:nth-child(2) {
+    width: 40%;
+}
+
+.weixinmao-content .title view:nth-child(3) {
+    width: 30%;
+}
+
+.weixinmao-content .list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.weixinmao-content .list .item {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    border-bottom: 1rpx solid #f5f5f5;
+}
+
+.weixinmao-foot {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 999;
+    width: 100%;
+}
+
+.weixinmao-foot view {
+    color: #FFF;
+    align-self: center;
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 0rpx;
+    padding-left: 30rpx;
+    background: #e64340;
+}
+
+.weixinmao-foot button {
+    background: #3274e5;
+    width: 100%;
+    color: #FFF;
+    border-radius: 0rpx;
+    font-size: 1rem;
+}
+
+.ismaster {
+    color: red;
+    font-weight: bold;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    padding-top: 30rpx;
+    align-self: center;
+}
+
+.selectitem textarea {
+    width: 100%;
+}
+
+.masterbtn {
+    margin-top: 100rpx;
+    width: 300rpx;
+    background: #3274e5;
+    color: #FFF;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-radius: 5rpx;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.weixinmao-msg_show {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2001;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.weixinmao-content_show {
+    width: 550rpx;
+    height: 600rpx;
+    z-index: 4001;
+    background: #FFF;
+    align-self: center;
+    border-radius: 8rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weixinmao-content_show .title {
+    border-bottom: 1rpx solid #e5e5e5;
+    width: 100%;
+    text-align: center;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    font-size: .8rem;
+    background: #3274e5;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weixinmao-content_show .title view:nth-child(1) {
+    width: 30%;
+}
+
+.weixinmao-content_show .title view:nth-child(2) {
+    width: 40%;
+}
+
+.weixinmao-content_show .title view:nth-child(3) {
+    width: 30%;
+}
+
+.weixinmao-content_show .list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.weixinmao-content_show .list .item {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    border-bottom: 1rpx solid #f5f5f5;
+}
+
+.heaerpic {
+    width: 380rpx;
+    height: 250rpx;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heaerpic image {
+    width: 160rpx;
+    height: 160rpx;
+    border: 7rpx solid #FFF;
+    border-radius: 160rpx;
+}
+
+.heaerpic view {
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 380rpx;
+    text-align: center;
+    font-size: .8rem;
+}

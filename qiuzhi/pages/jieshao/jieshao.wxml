@@ -1,0 +1,94 @@
+<!--pages/jieshao/jieshao.wxml-->
+<view wx:if="{{isHide}}">
+    <view wx:if="{{canIUse}}" >
+        <view class='header'>
+            <image src='/images/wx_login.png'></image>
+        </view>
+ 
+        <view class='content'>
+            <view>申请获取以下权限</view>
+            <text>获得你的公开信息(昵称，头像等)</text>
+        </view>
+ 
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button>
+    </view>
+    <view wx:else>请升级微信版本</view>
+</view>
+ 
+<view wx:else>
+   
+<view class="zong">
+    <!-- 轮播图 -->
+    <view class="f2">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="unique2">
+          <swiper-item>
+            <image  src="{{item}}" />
+          </swiper-item>
+        </block>
+      </swiper>
+    
+    </view>
+    <!-- 企业简要介绍 -->
+    <view class="f3">
+          <view class="logo">
+             <image src="../../images/logjiaoyu.png" style="height:100%;width:100%;"></image>
+          </view>
+          <view class="n">
+              <view class="n1">{{companyname}}</view>
+              <view class="n2">{{companyjianjie}}</view>       
+          </view>
+    </view>
+    <!--分隔-->
+    <view class="fenge"></view>
+
+
+    <!-- 企业详细介绍 -->
+    <view class="f4">
+       <view class="fenge2"></view>
+         <view id="title"><text id="title2">---公司介绍---</text></view>
+         <scroll-view scroll-y="true" style="height:90%;">
+           {{companyxiangxi}}
+        </scroll-view>
+    </view>
+    <view class="fenge"></view>
+
+
+    <!-- 企业产品介绍 -->
+    <view class="f5">
+       <view class="fenge2"></view>
+         <view id="title"><text id="title2">---业务介绍---</text></view>
+         <scroll-view scroll-y="true" style="height:90%;">
+            {{companyyewu}}
+        </scroll-view>
+    </view>
+    <view class="fenge"></view>
+
+
+    <!--企业福利介绍-->
+    <view class="f6">
+       <view class="fenge2"></view>
+       <view id="title"><text id="title2">---福利介绍---</text></view>
+       <scroll-view scroll-y="true" style="height:80%">
+           {{companyfuli}}
+        </scroll-view>
+    </view>
+    <view class="fenge"></view>
+
+    <!-- 企业联系地址 -->
+    <view class="f7">
+       <view class="fenge2"></view>
+       <view id="title"><text id="title2">---公司位置---</text></view>
+          <button bindtap='getlocate'>昆明同德广场</button> 
+    </view>
+
+
+</view>
+
+   
+
+</view>
+
+

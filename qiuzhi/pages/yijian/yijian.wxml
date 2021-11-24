@@ -1,0 +1,30 @@
+<view class="zong">
+<form  bindsubmit="formSubmit" >
+<view class="main">
+         <view class="title">
+          意见反馈
+        </view>
+        <view class="list">
+          <view class="item">
+                    <view class="name">联系方式</view>
+                    <view class="selectitem">
+                        <input name="lxfs" placeholder="请输入联系方式" type="text" ></input>
+                    </view>
+          </view>
+
+          <view class="item">
+           <view class="name">您的意见</view>
+                    <view class="selectitem" style="width:100%;">
+                        <textarea name='yj' maxlength="500" placeholder="请填写您的宝贵意见" value="{{noteinfo.content}}"></textarea>
+                    </view>
+                </view>
+            </view>
+        </view>
+      <view class="weixinmao-float">
+        <view class="weixinmao-foot">
+            <button class="footer" formType="submit">提出意见</button>
+        </view>
+    </view>
+    </form>
+          
+</view>

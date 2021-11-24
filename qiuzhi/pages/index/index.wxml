@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="zhengti">
+     <view class="shangfang"> 
+        <view class="search-bar"> 
+            <view class="barform"> <!-- 搜索框 --> 
+              <view class="searchbox"> 
+                <input name="searchjob" type="text" bindinput ="searchInput" class="input" placeholder="应聘岗位/教学科目/行政"/> 
+              </view> 
+            </view>  
+            <view class="button" bindtap='find'>
+                <image style="width:35px; height:100%;" src="/images/search.png"></image>
+            </view> 
+        </view> 
+      </view>
+</view>
+
+<view  class="zong">
+  <view class="shang">
+    <view class="shangzuo">
+        <image class="shangzuo2" src="/images/shehui.jpg"></image>
+    </view>
+    <view class="shangyou">
+        <view class="s"> <image bindtap="tiaozhuan" class="s2" src="/images/jianzhi.jpg" style="heigth:100%;width:100%"></image></view>
+        <view class="x"> <image bindtap="tiaozhuan2" class="x2" src="/images/xiaoyuan.jpg" style="heigth:100%;width:100%"></image></view>
+    </view>
+  </view>
+  <view class="xia">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}" wx:key="unique2">
+          <swiper-item>
+            <image src="{{item}}" style="width:100%"/>
+          </swiper-item>
+        </block>
+      </swiper>
+  </view>
+</view>

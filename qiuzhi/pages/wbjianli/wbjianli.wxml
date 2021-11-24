@@ -1,0 +1,2 @@
+ 
+<web-view src="{{u}}?qid={{qid}}"></web-view> 

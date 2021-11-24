@@ -1,0 +1,71 @@
+/* pages/mine/mine.wxss */
+
+.quanju{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.usermessage{
+  height: 10vh;
+  width: 100%;
+
+}
+.usermessage2{
+   justify-content: center;
+   text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.u1{
+    width: 50%;
+   
+}
+.border{
+  height: 2vh;
+  width: 100%;
+  background-color: #e0e0e0;
+
+}
+
+
+.under{
+  height: 88vh;
+  width: 100%;
+  background-color: #9ffff2;
+}
+
+.u2{
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
+}
+.u22{
+  align-items: center;
+  height: 90rpx;
+  width: 90rpx;
+}
+
+#name{
+  font-size: 60rpx;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn{
+  width: 100%;
+}
+
+.fenge{
+  background-color: #ffffff;
+  height: 3vh;
+}
+
+#fenge1{
+  height: 10vh;
+  background-color:  #ffffff;
+}
